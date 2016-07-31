@@ -1,0 +1,69 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+  padding-top: 9px;
+  margin: 10px 10px 10px 0;
+  float: left;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#logo:hover{
+  color: white;
+  text-decoration: none;
+}
+body {
+  padding-top: 80px;
+}
+
+
+.nav_item{
+  margin: 25px 0 0 20px;
+  
+  float: left;
+}
+
+.center{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom:30px;
+  color: #777;
+}
+
+.left{
+  text-align: left;
+  letter-spacing: 1.2px;
+}
+
+.footer{
+  float: bottom;
+  text-align: left;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 2px solid #eaeaea;
+  color: #777;
+}
